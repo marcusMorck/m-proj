@@ -8,4 +8,28 @@ html, body {
   padding: 0;
 }
 
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #000;
+  color: #fff;
+}
+footer p {
+  margin: 0;
+}
+
+.sidebar {
+  width: 250px;
+  height: 500px;
+  background-color: #000;
+}
+.sidebar nav {
+  display: flex;
+  flex-direction: column;
+}
+.sidebar nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
 /*# sourceMappingURL=style.css.map */
